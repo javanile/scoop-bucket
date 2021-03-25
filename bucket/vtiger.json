@@ -1,0 +1,7 @@
+{
+    "description": "Vtiger CLI for Windows",
+    "license": "MIT",
+    "version": "0.5.0",   
+    "bin": "ls",
+    "checkver": "github"
+}
