@@ -1,7 +1,27 @@
 {
+    "version": "0.1.0",
     "description": "Vtiger CLI for Windows",
+    "homepage": "https://getcomposer.org/",
     "license": "MIT",
-    "version": "0.5.0",   
-    "bin": "ls",
-    "checkver": "github"
+    "notes": "Vtiger Love Open Source",
+    "suggest": {
+        "PHP": [
+            "php",
+            "php-nts"
+        ]
+    },
+    "url": "https://github.com/javanile/vtiger-cli/raw/main/dist/vtiger-cli.phar",
+    "hash": "d6eee0d4637f4bd82bdae098fceda300dcb3ec35bf502604fbe7510933b8f952",
+    "pre_install": [
+        "@('& php (Join-Path $psscriptroot \"composer.phar\") @args') | Add-Content -Path \"$dir\\vtiger.ps1\""
+    ],
+    "bin": "vtiger.ps1",
+    "persist": "home",
+    "checkver": "Latest: <strong>\\s*([\\d.]+)\\s*</strong>",
+    "autoupdate": {
+        "url": "https://github.com/javanile/vtiger-cli/raw/main/dist/vtiger-cli-$version.phar",
+        "hash": {
+            "url": "$url.sha256sum"
+        }
+    }
 }
