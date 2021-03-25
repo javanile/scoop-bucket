@@ -11,7 +11,7 @@
         ]
     },
     "url": "https://github.com/javanile/vtiger-cli/raw/main/dist/vtiger-cli.phar",
-    "hash": "d6eee0d4637f4bd82bdae098fceda300dcb3ec35bf502604fbe7510933b8f952",
+    "hash": "0be8b3fd366142c5919f96447aafb13298947241eafdb9e81153d6489edde5f9",
     "pre_install": [
         "@('& php (Join-Path $psscriptroot \"composer.phar\") @args') | Add-Content -Path \"$dir\\vtiger.ps1\""
     ],
