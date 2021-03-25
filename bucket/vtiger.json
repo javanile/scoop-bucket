@@ -1,7 +1,7 @@
 {
     "version": "0.1.0",
     "description": "Vtiger CLI for Windows",
-    "homepage": "https://getcomposer.org/",
+    "homepage": "https://github.com/javanile/vtiger-cli",
     "license": "MIT",
     "notes": "Vtiger Love Open Source",
     "suggest": {
