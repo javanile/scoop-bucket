@@ -5,7 +5,7 @@
     "license": "MIT",
     "notes": "Developer loves Makefile",
     "url": "https://github.com/javanile/make.bat/raw/main/make.bat",
-    "hash": "0be8b3fd366142c5919f96447aafb13298947241eafdb9e81153d6489edde5f9",    
+    "hash": "a1600e5550f2794362a1c1d695f45cc078a5da60d540453cd7af7d6ae1eb1123",    
     "bin": "make.bat",
     "persist": "home",
     "checkver": "Latest: <strong>\\s*([\\d.]+)\\s*</strong>",
