@@ -4,7 +4,7 @@
     "homepage": "https://github.com/javanile/make.bat",
     "license": "MIT",
     "notes": "Developer loves Makefile",
-    "url": "https://github.com/javanile/make.bat/raw/main/make.bat",
+    "url": "https://github.com/javanile/make.bat/archive/refs/tags/0.0.1.zip",
     "hash": "a1600e5550f2794362a1c1d695f45cc078a5da60d540453cd7af7d6ae1eb1123",    
     "bin": "make.bat",
     "persist": "home",
